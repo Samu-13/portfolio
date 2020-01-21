@@ -1,0 +1,82 @@
+{box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  color: #f1f1f1;
+  width: 80%;
+  padding-top: 200px;
+	padding-left: 30px;
+	padding-right: 200px;
+  position: absolute;
+  text-align: left;
+ 
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
+video {
+  item-align: center;
+ }
+aside{
+  color: white;
+  flex: inherit;
+  position: absolute;
+}
+.img  {  
+  display: block;
+  margin-left: 500px;
+  width: 70%;
+vertical-align: baseline;
+  padding-right: 50px;
+ 
+}
+
+h2 {text-align: left;
+  padding-top: 0,5px;
+}
+
+/*portfolio scritta*/
+.content h1 {
+padding-top: 60px; 
+  font-size: 135px;
+font-family: 'Just Me Again Down Here', cursive;;
+}
+
+h2 { font-size: 60px;
+  padding-left: 110px;
+font-family: 'Just Me Again Down Here', cursive;
+padding-bottom: 50px;}
+
+footer {position: relative;
+color: white;
+padding: 25px;
+font-size: 20px;
+}
+p{padding-right: 80px;}
+
